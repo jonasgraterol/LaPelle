@@ -304,76 +304,84 @@ $j(function($j) {
             <div id="menuadministracion" style="display:none" class="sidebarmenu">
 			
             	<a class="menuitem submenuheader" href="#">% de Ganacias</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/porcganancias/crearporcganancias.php'); " href="#">Definir </a></li>
-                    </ul>
-                </div>
-                <a class="menuitem submenuheader" href="#">Marca</a>
-                    <div class="submenu">
-                        <ul>
-                        	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/marca/administrarmarca.php'); " href="#">Administrar</a></li>
-                        	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/marca/crearmarca.php'); " href="#">Crear</a></li>
-                        	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/marca/consultamarca.php'); " href="#">Reporte</a></li>
-                        </ul>
-                    </div>
-                <a class="menuitem submenuheader" href="#">Talla</a>
-                    <div class="submenu">
-                        <ul>
-                        	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/talla/administrartalla.php'); " href="#">Administrar</a></li>
-                        	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/talla/creartalla.php'); " href="#">Crear</a></li>
-                        	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/talla/consultatalla.php'); " href="#">Reporte</a></li>
-                        </ul>
-                    </div>
-                <a class="menuitem submenuheader" href="#">Tipo Articulo</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/tipoarticulo/administrartipoarticulo.php'); " href="#">Administrar</a></li>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/tipoarticulo/creartipoarticulo.php'); " href="#">Crear</a></li>
-                    	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/tipoarticulo/consultatipoarticulo.php'); " href="#">Reporte</a></li>
-						
-                    </ul>
-                </div>
-                <a class="menuitem submenuheader" href="" >Tipo Unidad</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/tipounidad/administrartipounidad.php'); " href="#">Administrar</a></li>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/tipounidad/creartipounidad.php'); " href="#">Crear</a></li>
-                    	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/tipounidad/consultatipounidad.php'); " href="#">Reporte</a></li>
-                    </ul>
-                </div>
-				<a class="menuitem submenuheader" href="" >Tipo Servicio</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/tiposervicio/administrartiposervicio.php'); " href="#">Administrar</a></li>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/tiposervicio/creartiposervicio.php'); " href="#">Crear</a></li>
-                    	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/tiposervicio/consultatiposervicio.php'); " href="#">Reporte</a></li>
-                    </ul>
-                </div>
-				<a class="menuitem submenuheader" href="" >Proveedor</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/proveedor/administrarproveedor.php'); " href="#">Administrar</a></li>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/proveedor/crearproveedor.php'); " href="#">Crear</a></li>
-                    	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/proveedor/consultaproveedor.php'); " href="#">Reporte</a></li>
-                    </ul>
-                </div>
-                <a class="menuitem submenuheader" href="" >Usuarios</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/usuario/administrarusuario.php'); " href="#">Administrar</a></li>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/usuario/crearusuario.php'); " href="#">Crear</a></li>
-                    	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/usuario/consultausuario.php'); " href="#">Reporte</a></li>
-                    </ul>
-                </div>
-                <a class="menuitem submenuheader" href="" >Clientes</a>
-                <div class="submenu">
-                    <ul>
-                    	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/cliente/administrarcliente.php'); " href="#">Administrar</a></li>
-                    	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/cliente/crearcliente.php'); " href="#">Crear</a></li>
-                    	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/cliente/consultacliente.php'); " href="#">Reporte</a></li>
-                    </ul>
-                </div>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/porcganancias/crearporcganancias.php'); " href="#">Definir </a></li>
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="#">Marca</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/marca/administrarmarca.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/marca/crearmarca.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/marca/consultamarca.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="#">Talla</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/talla/administrartalla.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/talla/creartalla.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/talla/consultatalla.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="#">Color</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/color/administrarcolor.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/color/crearcolor.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/color/consultacolor.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="#">Tipo Articulo</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/tipoarticulo/administrartipoarticulo.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/tipoarticulo/creartipoarticulo.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/tipoarticulo/consultatipoarticulo.php'); " href="#">Reporte</a></li>
+					
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="" >Tipo Unidad</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/tipounidad/administrartipounidad.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/tipounidad/creartipounidad.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/tipounidad/consultatipounidad.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+      				<a class="menuitem submenuheader" href="" >Tipo Servicio</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/tiposervicio/administrartiposervicio.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/tiposervicio/creartiposervicio.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/tiposervicio/consultatiposervicio.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+      				<a class="menuitem submenuheader" href="" >Proveedor</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/proveedor/administrarproveedor.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/proveedor/crearproveedor.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/proveedor/consultaproveedor.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="" >Usuarios</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/usuario/administrarusuario.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/usuario/crearusuario.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/usuario/consultausuario.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
+              <a class="menuitem submenuheader" href="" >Clientes</a>
+              <div class="submenu">
+                  <ul>
+                  	<li><a onclick="limpiar2Div('derecha', 'big'); cargarDiv('centro', 'administracion/cliente/administrarcliente.php'); " href="#">Administrar</a></li>
+                  	<li><a onclick="limpiar2Div('centro', 'big'); cargarDiv('derecha', 'administracion/cliente/crearcliente.php'); " href="#">Crear</a></li>
+                  	<li><a onclick="limpiar2Div('derecha', 'centro'); cargarDiv('big', 'administracion/cliente/consultacliente.php'); " href="#">Reporte</a></li>
+                  </ul>
+              </div>
                     
             </div>
               
